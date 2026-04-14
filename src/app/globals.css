@@ -1,0 +1,23 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:#0c0c18;color:#e8e8f8;font-family:'Trebuchet MS',Tahoma,Geneva,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh;}
+input[type="range"]{cursor:pointer;}
+button{font-family:inherit;}
+::-webkit-scrollbar{width:6px;height:6px;}
+::-webkit-scrollbar-track{background:#0c0c18;}
+::-webkit-scrollbar-thumb{background:#30304a;border-radius:3px;}
+::-webkit-scrollbar-thumb:hover{background:#6868a0;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes ballDrop{0%{opacity:0;transform:scale(0.3) translateY(-20px)}60%{transform:scale(1.1) translateY(2px)}100%{opacity:1;transform:scale(1) translateY(0)}}
+@keyframes barFill{from{width:0}to{width:var(--w,0%)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(200,146,42,0.4)}50%{box-shadow:0 0 0 6px rgba(200,146,42,0)}}
+.ball-drop{animation:ballDrop 0.5s cubic-bezier(0.34,1.56,0.64,1) forwards;}
+.fade-up{animation:fadeUp 0.4s ease forwards;}
+.bar-fill{animation:barFill 0.9s cubic-bezier(0.4,0,0.2,1) forwards;}
+.pulse-gold{animation:pulse 2s ease infinite;}
+.oracle-btn:hover{filter:brightness(1.15);transform:translateY(-1px);}
+.oracle-btn:active{transform:translateY(0) scale(0.98);}
+.card-hover:hover{border-color:rgba(200,146,42,0.35)!important;transform:translateY(-2px);}
+.digit-card:hover{border-color:rgba(200,146,42,0.5)!important;}
+.nav-link:hover{color:#e8e8f8!important;}
+@media print{body *{visibility:hidden!important}#print-zone,#print-zone *{visibility:visible!important}#print-zone{position:fixed;top:0;left:0;width:100%}@page{margin:0.5in;size:letter portrait}}
