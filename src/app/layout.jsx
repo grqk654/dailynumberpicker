@@ -3,7 +3,7 @@ import Nav from '../components/ui/Nav';
 import Footer from '../components/ui/Footer';
 
 export const metadata = {
-  title: { default: "Daily Number Picker — NY Pick 3 & Win-4 Analysis Engine", template: "%s | Daily Number Picker" },
+  title: { default: "Daily Number Picker — NY Pick 3 & Win-4 Analysis Engine", template: "%s | DailyNumberPicker" },
   description: "Free NY Pick 3 and Win-4 number picker powered by 45 years of draw history. Skip tracking, hot/cold digits, master digit wheeling. Updated daily.",
   keywords: ["daily numbers", "number picker", "NY Pick 3", "Win-4", "lottery analysis", "pick 3 strategy"],
   openGraph: {
