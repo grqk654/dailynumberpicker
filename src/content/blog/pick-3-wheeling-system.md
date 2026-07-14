@@ -153,5 +153,5 @@ The tool also shows:
 ## Related Guides
 
 - [NY Pick 3 Hot Numbers Today — How to Find Them and What They Mean](/blog/ny-pick-3-hot-numbers-today)
-- [Pick 3 Straight vs. Box — Which Bet Type Is Right for You?](/blog/pick-3-straight-vs-box)
+- [Pick 3 Straight vs. Box — Which Bet Type Is Right for You?](/blog/pick3-straight-vs-box)
 - [Pick 3 Skip Tracking — What It Is and How to Use It](/blog/pick-3-skip-tracking)
